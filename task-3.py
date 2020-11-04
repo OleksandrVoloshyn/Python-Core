@@ -146,21 +146,22 @@
 # # Етап логінації
 #
 # login = input('login: ')
-# # login = 'login1'
+# login = 'login1'
 # password = input('password: ')
-# # password = 'password1'
+# password = 'password1'
 # choose_account = 0
 # enter = False
 #
 # for i in range(len(account)):
 #     if account[i]['login'] == login and account[i]['password'] == password:
 #         enter = True
-#         true_account = i
+#         choose_account = i
 #
 # if not enter:
 #     print('Неправильний логін чи пароль')
 #
-# # Кінець етапу логінації
+
+# Кінець етапу логінації
 #
 # def check():
 #     check_value = account[choose_account]['value']
@@ -176,7 +177,7 @@
 #     else:
 #         account[choose_account]['value'] -= number
 #         print('Отримайте ваші кошти')
-
+#
 #
 # def plus():
 #     give = int(input('Скільки бажаєте внести :'))
